@@ -42,7 +42,7 @@ docker compose up --build
 Setelah container PostgreSQL siap, jalankan migration:
 
 ```bash
-migrate -path migrations -database "postgres://postgres:password@localhost:5432/auth_api?sslmode=disable" up
+migrate -path migrations -database "postgres://[DB_USER]:[DB_PASSWORD]@localhost:5432/[DB_NAME]?sslmode=disable" up
 ```
 
 API akan berjalan di:
