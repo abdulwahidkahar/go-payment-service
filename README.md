@@ -1,6 +1,6 @@
-# Go Auth API
+# Go Payment Service
 
-REST API autentikasi berbasis Go untuk register, login, logout, dan profile retrieval dengan JWT.
+REST API layanan pembayaran berbasis Go dengan fitur autentikasi JWT, profile retrieval, top up wallet, cek saldo, dan transfer saldo.
 
 ## Tech Stack
 
